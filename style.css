@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Ubuntu:wght@300;400&display=swap");
+* {
+  font-size: 1.1rem;
+  background-color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+main {
+  background-color: whitesmoke;
+  margin: 2%;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px gainsboro;
+}
+#title {
+  font-size: 1.8rem;
+  background-color: whitesmoke;
+  margin-left: 30px;
+}
+#img-div {
+  background-color: whitesmoke;
+}
+#img-caption {
+  background-color: whitesmoke;
+  font-weight: bold;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: black;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#image {
+  width: 40vw;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 7px gray;
+}
+#tribute-info {
+  margin: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 5px gainsboro;
+}
+#tribute-link {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 1.3rem;
+}
